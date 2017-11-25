@@ -1,3 +1,3 @@
-class List < ActiveRecord::Base
+class Product < ActiveRecord::Base
   validates :name, :presence => true
 end
