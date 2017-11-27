@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'zurb-foundation'
 gem "foundation-rails", "= 5.5.2.1"
+gem 'faker'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
