@@ -1,26 +1,33 @@
-.left {
-  float: left;
-  margin-right: 15px;
-}
-
-center {
- text-align: center;
-}
-
 .parent {
- flex-direction: column;
- align-items: center;
- justify-content: space-between;
+ display: flex;
+ padding: 10vh;
+ padding-top: 5vh;
 }
 
 .left-content {
  flex: 1;
+ padding: 3vh;
 }
 
 .middle-content {
   flex: 1;
+  padding: 5vh;
 }
 
 .right-content {
  flex: 1;
+ padding: 5vh;
+}
+
+.center {
+  text-align: center;
+  margin: 0;
+}
+
+.pad {
+  padding: 5vh;
+}
+
+ul {
+  list-style: none;
 }
